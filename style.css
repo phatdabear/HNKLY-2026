@@ -1,0 +1,143 @@
+
+/* ============================================
+   BODY STYLES - Page Container
+   ============================================ */
+
+body {
+	/* Set the page background color to light blue */
+	background-color: lightblue;
+	/* Remove default margin to make the page flush to edges */
+	margin: 0;
+	/* Use flexbox to enable flexible layout and centering */
+	display: flex;
+	/* Align items to the top of the page (flex-start) */
+	align-items: flex-start;
+	/* Center items horizontally on the page */
+	justify-content: center;
+	/* Set minimum height to full viewport height (100vh) */
+	min-height: 100vh;
+	/* Add padding at the top for spacing below the header */
+	padding-top: 40px;
+}
+
+/* ============================================
+   MAIN SECTION - Card Container
+   ============================================ */
+
+main {
+	/* Center all text inside the card */
+	text-align: center;
+	/* Add 40px of internal spacing (padding) on all sides */
+	padding: 20px;
+	/* Round the corners of the card with 12px radius */
+	border-radius: 12px;
+	/* Set the card background to white for contrast */
+	background-color: white;
+	/* Limit the card width to 600px maximum for readability */
+	max-width: 600px;
+	/* Add a subtle shadow beneath the card for depth and elevation effect */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================
+   H1 HEADING - Profile Name
+   ============================================ */
+
+h1.main-heading {
+	/* Set the name to a large 80px font size for emphasis */
+	font-size: 80px;
+	/* Remove default margins */
+	margin: 0;
+	/* Set the name color to dark blue (#003366) to match the border */
+	color: #003366;
+	/* Bold the text with font-weight 700 for visual emphasis */
+	font-weight: 700;
+}
+
+/* ============================================
+   H2 SUBHEADING - Title/Subtitle
+   ============================================ */
+
+h2.subheading {
+	/* Set subtitle to 40px font size (smaller than the main heading) */
+	font-size: 40px;
+	/* Add 8px margin above, 0 on left/right, 0 below for spacing */
+	margin: 8px 0 0;
+	/* Set color to slate gray (#708090) for secondary emphasis */
+	color: #708090;
+	/* Use font-weight 500 (medium) for lighter appearance than the heading */
+	font-weight: 500;
+}
+
+/* ============================================
+   BIO CLASS - Profile Description
+   ============================================ */
+
+.bio {
+	/* Set the bio text to 18px for easy readability */
+	font-size: 18px;
+	/* Set line-height to 1.6 for better spacing between text lines */
+	line-height: 1.6;
+	/* Add 8px margin above the bio text for spacing */
+	margin-top: 8px;
+	/* Set the bio text color to dark gray (#333333) for readability */
+	color: #333333;
+}
+
+/* ============================================
+   IMAGE - Profile Picture
+   ============================================ */
+
+img {
+	/* Set width to 100% to make the image as wide as possible */
+	max-width: 100%;
+	/* Limit the height to 200px for a shorter profile picture */
+	max-height: 200px;
+	/* Set a specific height constraint for consistent sizing */
+	height: auto;
+	/* Set width to auto to maintain aspect ratio */
+	width: auto;
+	/* Add margin below the image for spacing */
+	margin: 0 auto 20px;
+	/* Display as block to ensure proper centering */
+	display: block;
+	/* Make the picture completely round */
+	border-radius: 50%;
+	/* Add a subtle border for definition */
+	border: 2px solid #e0e0e0;
+}
+
+/* ============================================
+   LIST STYLES - Favorite Websites
+   ============================================ */
+
+ul {
+	/* Remove default bullet points */
+	list-style: none;
+	/* Reset default padding */
+	padding: 0;
+	/* Add margin for spacing */
+	margin: 20px 0;
+}
+
+li {
+	/* Add spacing between list items */
+	margin: 12px 0;
+	/* Set font size for links */
+	font-size: 18px;
+}
+
+a {
+	/* Style the links */
+	color: #003366;
+	/* Remove default underline */
+	text-decoration: none;
+	/* Add underline on hover */
+	transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+	/* Add underline when hovering over links */
+	text-decoration: underline;
+}
+
